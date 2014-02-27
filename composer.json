@@ -1,0 +1,28 @@
+{
+    "name": "drupal/composer_manager_dummy",
+    "type": "drupal-module",
+    "description": "A dummy Drupal module for testing the Composer Manager module.",
+    "homepage": "https://github.com/psynaptic/composer_manager_dummy",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Richard Burford",
+            "email": "rich@fs.io"
+        }
+    ],
+    "support": {
+        "issues": "http://drupal.org/project/issues/composer_manager"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/filesystem": "~2.0"
+    },
+    "require-dev": {
+        "pdepend/pdepend": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Drupal": "src/"
+        }
+    }
+}

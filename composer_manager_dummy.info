@@ -1,0 +1,4 @@
+name = Composer Manager Dummy
+description = A dummy module for testing Composer Manager module.
+core = 7.x
+
